@@ -1,3 +1,0 @@
-C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug/CMakeFiles/mantie7553udey4948.dir
-C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug/CMakeFiles/rebuild_cache.dir

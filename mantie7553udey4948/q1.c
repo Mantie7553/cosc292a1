@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 //
 // Created by mantie7553 on 2026-01-30.
 //
@@ -12,5 +15,11 @@
 
 void printData(unsigned int* iFoodArrayPtr, int iSize)
 {
+    char* fcc = (char*) iFoodArrayPtr;
+    unsigned int* fccPtr = (unsigned int*) iFoodArrayPtr;
+    unsigned short* fsn = (unsigned short*) iFoodArrayPtr;
+
+
+
 
 }
