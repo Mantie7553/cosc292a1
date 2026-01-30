@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/VisualStudioProjects/mantie7553udey4948/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles\\mantie7553udey4948.dir\\main.c.obj -c C:\\VisualStudioProjects\\mantie7553udey4948\\main.c",
+  "file": "C:/VisualStudioProjects/mantie7553udey4948/main.c",
+  "output": "C:/VisualStudioProjects/mantie7553udey4948/cmake-build-debug/CMakeFiles/mantie7553udey4948.dir/main.c.obj"
+}
+]
