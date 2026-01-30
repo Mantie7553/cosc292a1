@@ -22,5 +22,23 @@
   "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles\\mantie7553udey4948.dir\\q6.c.obj -c C:\\VisualStudioProjects\\cosc292a1\\mantie7553udey4948\\q6.c",
   "file": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/q6.c",
   "output": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug/CMakeFiles/mantie7553udey4948.dir/q6.c.obj"
+},
+{
+  "directory": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles\\mantie7553udey4948.dir\\q4.c.obj -c C:\\VisualStudioProjects\\cosc292a1\\mantie7553udey4948\\q4.c",
+  "file": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/q4.c",
+  "output": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug/CMakeFiles/mantie7553udey4948.dir/q4.c.obj"
+},
+{
+  "directory": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles\\mantie7553udey4948.dir\\q3.c.obj -c C:\\VisualStudioProjects\\cosc292a1\\mantie7553udey4948\\q3.c",
+  "file": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/q3.c",
+  "output": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug/CMakeFiles/mantie7553udey4948.dir/q3.c.obj"
+},
+{
+  "directory": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\gcc.exe -g -std=gnu2x -fdiagnostics-color=always -o CMakeFiles\\mantie7553udey4948.dir\\q2.c.obj -c C:\\VisualStudioProjects\\cosc292a1\\mantie7553udey4948\\q2.c",
+  "file": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/q2.c",
+  "output": "C:/VisualStudioProjects/cosc292a1/mantie7553udey4948/cmake-build-debug/CMakeFiles/mantie7553udey4948.dir/q2.c.obj"
 }
 ]
