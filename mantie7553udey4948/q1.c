@@ -4,8 +4,13 @@
 
 /*
  * 1. A function printData which prints each record in the array, showing the FCC, FHC, and FSN, to the console window.
- * Signature:
- * void printData(unsigned int* iFoodArrayPtr, int iSize);
+ * Food Category Code (FCC) – a letter indicating the food category (stored in least significant byte)
+ * Food Handling Code (FHC) – a value in the range 0 to 255
+ * Food Serial Number (FSN) – a value in the range 0 to 65535 (stored in most significant bytes)
  *
 */
 
+void printData(unsigned int* iFoodArrayPtr, int iSize)
+{
+
+}
