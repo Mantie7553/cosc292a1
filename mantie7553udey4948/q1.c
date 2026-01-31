@@ -15,11 +15,19 @@
 
 void printData(unsigned int* iFoodArrayPtr, int iSize)
 {
-    char* fcc = (char*) iFoodArrayPtr;
-    unsigned int* fccPtr = (unsigned int*) iFoodArrayPtr;
-    unsigned short* fsn = (unsigned short*) iFoodArrayPtr;
+    for (int i = 0; i < iSize; i++)
+    {
+        // char pointer to the current item in the array, used to break down information into separate bytes
+        char* foodItem = (char*)&iFoodArrayPtr[i];
+        // any character can be stored in the first byte
+        char fcc = foodItem[0];
+        // only values between 0 - 255 can be stored in the second byte
+        unsigned char fhc = foodItem[1];
+        // gets pointer to the 3rd byte
+        // as it is a short pointer this can be dereferenced to also get the value from the 4th byte
+        unsigned short* fsnPtr = (unsigned short*)&foodItem[2];
 
-
-
+        printf("\nFood Item %d: FCC='%c', FHC=%u FSN=%u\n", i + 1, fcc, fhc, *fsnPtr);
+    }
 
 }
