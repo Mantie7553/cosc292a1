@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include "q1.h"
 #include "q2.h"
 
 int main(void) {
@@ -9,18 +10,12 @@ int main(void) {
     unsigned int iFoodArray[] = { 4294901841, 65370, 655320129 };
     int iSize = sizeof(iFoodArray) / sizeof(unsigned int);
     //Calls to your functions
-    // 
+    //
     //Print the data from each record
     printData(iFoodArray, iSize);
 
     //Change the Food Category Code in Record 2 to a Y
-     setFCC('Y', 1, iFoodArray);
-
-    if (iFoodArray[1] == 65370) {
-        printf("False");
-    }else {
-        printf("True");
-    }
+    //setFCC('Y', 1, iFoodArray);
     //Change the Food Handling Code in Record 2 to 79
     setFHC(79, 1, iFoodArray);
     unsigned char* bPtr = (unsigned char*)&iFoodArray[1];
