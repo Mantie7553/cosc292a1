@@ -11,17 +11,21 @@
 #include "q2.h"
 void setFCC(char cValue, int iRecordLoc, unsigned int* iFoodArrayPtr)
 {
-    //EX:setFCC('Y',1,iFoodArray)
-    //cast input cValue to a char print it out byte by byte to check where it is.
-    iFoodArrayPtr[iRecordLoc] = (unsigned char)cValue;
+   //Points at the first bit in the array
+    unsigned char* bPtr = (unsigned char*)&iFoodArrayPtr[iRecordLoc];
+    *bPtr = cValue; //sets the value where the pointer is pointing
 
 
 }
 void setFHC(unsigned char iValue, int iRecordLoc, unsigned int* iFoodArrayPtr)
 {
-
+    // points at the second bit in the array 
+    unsigned char* bPtr = (unsigned char*)&iFoodArrayPtr[iRecordLoc];
+    *(bPtr + 1) = iValue; //sets the value
 }
 void setFSN(unsigned short sValue, int iRecordLoc, unsigned int* iFoodArrayPtr)
 {
-
+    //short assignment to assign the short
+    unsigned short* bPtr = (unsigned short*)&iFoodArrayPtr[iRecordLoc];
+    *(bPtr + 1) = sValue; //sets the short 
 }
