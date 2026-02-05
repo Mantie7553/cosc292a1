@@ -9,7 +9,7 @@ int main(void) {
     //Calls to your functions
 
     //Print the data from each record
-    printData(iFoodArray, iSize);
+    //printData(iFoodArray, iSize);
 
     //Change the Food Category Code in Record 2 to a Y
     //setFCC('Y', 1, iFoodArray);
